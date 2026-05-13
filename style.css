@@ -1,0 +1,178 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial, sans-serif;
+    line-height:1.6;
+}
+
+/* Navbar */
+.navbar{
+    background:#0b3d2e;
+    color:white;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:15px 40px;
+}
+
+.logo{
+    font-size:28px;
+}
+
+.nav-links{
+    display:flex;
+    list-style:none;
+    gap:20px;
+}
+
+.nav-links a{
+    color:white;
+    text-decoration:none;
+    font-weight:bold;
+}
+
+.nav-links a:hover{
+    color:gold;
+}
+
+/* Hero Section */
+.hero{
+    height:90vh;
+
+    background:
+    linear-gradient(rgba(0,0,0,0.5),
+    rgba(0,0,0,0.5)),
+    url("https://media.licdn.com/dms/image/v2/C4D16AQH2Vm8JwTm8iA/profile-displaybackgroundimage-shrink_200_800/profile-displaybackgroundimage-shrink_200_800/0/1646400474667?e=2147483647&v=beta&t=ApwLbgsGY5vAYuGZp7p8xQM9QGFd-eB5lY0GgsZVW54");
+
+    background-size:cover;
+    background-position:center;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    text-align:center;
+    color:white;
+}
+
+.hero-content h1{
+    font-size:55px;
+    margin-bottom:20px;
+}
+
+.hero-content p{
+    font-size:22px;
+    margin-bottom:25px;
+}
+
+.btn{
+    background:gold;
+    color:black;
+    padding:12px 25px;
+    text-decoration:none;
+    border-radius:5px;
+    font-weight:bold;
+}
+
+.btn:hover{
+    background:white;
+}
+
+.tourism{
+    padding:60px 20px;
+    text-align:center;
+}
+
+.tourism h2{
+    margin-bottom:40px;
+    font-size:36px;
+}
+
+.tourism-container{
+    display:flex;
+    justify-content:center;
+    gap:30px;
+    flex-wrap:wrap;
+}
+
+.tour-card{
+    background:#997777;
+    padding:30px;
+    width:300px;
+    border-radius:10px;
+    box-shadow:0 4px 10px rgba(0,0,0,0.2);
+}
+
+.tour-card i{
+    font-size:40px;
+    color:#0b3d2e;
+    margin-bottom:20px;
+}
+
+/* Gallery */
+.gallery{
+    padding:60px 20px;
+    background:#705151;
+    text-align:center;
+}
+
+.gallery h2{
+    margin-bottom:30px;
+}
+
+.gallery-container{
+    display:flex;
+    gap:20px;
+    justify-content:center;
+    flex-wrap:wrap;
+}
+
+.gallery-container img{
+    width:300px;
+    height:200px;
+    object-fit:cover;
+    border-radius:10px;
+}
+
+/* Footer */
+.footer{
+    background:#2b6050;
+    color:white;
+    padding:40px 20px;
+}
+
+.footer-container{
+    display:grid;
+    grid-template-columns:repeat(auto-fit, minmax(250px,1fr));
+    gap:30px;
+}
+
+.footer-section a{
+    color:white;
+    font-size:24px;
+}
+
+.footer-form input,
+.footer-form textarea{
+    width:100%;
+    padding:10px;
+    margin-top:5px;
+    margin-bottom:10px;
+}
+
+.footer-form button{
+    background:rgb(57, 44, 107);
+    border:none;
+    padding:10px 20px;
+    cursor:pointer;
+    font-weight:bold;
+}
+
+.footer-bottom{
+    text-align:center;
+    margin-top:20px;
+}
